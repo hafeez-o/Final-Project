@@ -1,0 +1,1 @@
+alert("North America is a continent that has a lot of experience but little accomplishment and with only three countries the competition is stiff. You can click okay to find out more about these three countries");
