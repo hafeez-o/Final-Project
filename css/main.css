@@ -1,4 +1,4 @@
-body {margin:0;
+body {margin:20px;
 }
 
 ul {
@@ -10,7 +10,8 @@ ul {
     position: fixed;
     top: 0;
     width: 90%;
-    border: 2pt solid #e6ffff;    border-radius: 07.5px;
+    border: 2pt solid #e6ffff;    
+    border-radius: 07.5px;
     border-spacing: 10px 50px;
 }
 
@@ -20,18 +21,21 @@ li {
 
 li a {
     display: block;
-    color: #00cccc;    text-align: center;
+    color: #00cccc;    
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: verdana;
 }
 
 li a:hover:not(.active) {
-    background-color: #e6ffff;    font-family: verdana;
+    background-color: #e6ffff;    
+    font-family: verdana;
 }
 
 .active {
-    background-color: #e6ffff;    font-family: verdana;
+    background-color: #e6ffff;    
+    font-family: verdana;
     color: #00cccc;    }
 body{
     background-color: #00e6b8;
@@ -52,7 +56,8 @@ img{
 div{
     padding:20px;
     margin-top:30px;
-    background-color:#00cccc;    height:1500px;
+    background-color:#00cccc;    
+    height:1500px;
 }
 .textwrap{
     float: left;
@@ -83,16 +88,21 @@ h2{
     height: 30px;
 }
 li a:hover:not(.log) {
-   background-color: #e6ffff;    font-family: verdana;
+   background-color: #e6ffff;    
+   font-family: verdana;
 }
 .log {
-    background-color: #e6ffff;    font-family: verdana;
-    color: #00cccc;    border: 1pt solid #00e6b8;
+    background-color: #e6ffff;    
+    font-family: verdana;
+    color: #00cccc;    
+    border: 1pt solid #00e6b8;
     float: right;
     border-spacing: 
 }
 table{
-    border: 2pt groove #e6ffff;    color: #e6ffff;    font-family: verdana;
+    border: 2pt groove #e6ffff;    
+    color: #e6ffff;    
+    font-family: verdana;
 }
 td a{
     text-decoration: none;
