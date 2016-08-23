@@ -60,12 +60,12 @@ img{
     height: 250px;
     border: 7.5pt groove #e6ffff;
 }
-div{
+/*div{
     padding:20px;
     margin-top:30px;
     background-color:white;
     height:1500px;
-}
+}*/
 a img{
 	width: 30px;
 	height: 30px;
@@ -80,50 +80,132 @@ a img{
     border: none;
     float: right;
 }
-h2{
-	font-family: verdana;
+h2{	
+    font-family: verdana;
     color: #e6ffff;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00663d;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: ;
+    background-color: #00e6b8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 </style>
 
 </head>
-	<ul>
-		<li></li>
-		<li><a class="active" href="index.html">Home</a></li>
-		<li><a href="linkedpage1.html">North America</a></li>
-  		<li><a href="linkedpage2.html">Europe</a></li>
-  		<li><a href="linkedpage3.html">South America</a></li>
-  		<li><a href="linkedpage4.html">Africa</a></li>
-  		<li><a href="linkedpage5.html">Asia</a></li>
-  		<li><a href="https://www.fifa.com">FIFA</a></li>
-	</ul>
-
-<body>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li class="dropdown">
+      <a href="linkedpage1.html" class="dropbtn">North America</a>
+        <div class="dropdown-content">
+          <a href="linkedpage1.html#USA">USA</a>
+          <a href="linkedpage1.html#Canada">Canada</a>
+          <a href="linkedpage1.html#Mexico">Mexico</a>
+        </div>
+      </li>  
+      <li class="dropdown">
+      <a href="linkedpage2.html" class="dropbtn">Europe</a>
+        <div class="dropdown-content">
+          <a href="linkedpage2.html#bulgaria">Bulgaria</a>
+          <a href="linkedpage2.html#ireland">Ireland</a>
+          <a href="linkedpage2.html#poland">Poland</a>
+          <a href="linkedpage2.html#croatia">Croatia</a>
+          <a href="linkedpage2.html#england">England</a>
+          <a href="linkedpage2.html#france">France</a>
+          <a href="linkedpage2.html#holland">Holland</a>
+          <a href="linkedpage2.html#portugal">Portugal</a>
+          <a href="linkedpage2.html#spain">Spain</a>
+          <a href="linkedpage2.html#italy">Italy</a>
+          <a href="linkedpage2.html#germany">Germany</a>
+        </div>
+      </li>
+      <li class="dropdown">  
+      <a href="linkedpage3.html" class="dropbtn">South America</a>
+        <div class="dropdown-content">
+          <a href="linkedpage3.html#brazil">  Brazil</a>
+          <a href="linkedpage3.html#argentina">Argentina</a>
+          <a href="linkedpage3.html#chile">Chile</a>
+          <a href="linkedpage3.html#colombia">Colombia</a>
+          <a href="linkedpage3.html#uruguay">Uruguay</a>
+          <a href="linkedpage3.html#paraguay">Paraguay</a>
+        </div>
+      </li>
+      <li class="dropdown">
+      <a href="linkedpage4.html" class="dropbtn">Africa</a>
+        <div class="dropdown-content">
+          <a href="linkedpage4.html#algeria">Algeria</a>
+          <a href="linkedpage4.html#cameroon">Cameroon</a>
+          <a href="linkedpage4.html#egypt">Egypt</a>
+          <a href="linkedpage4.html#nigeria">Nigeria</a>
+          <a href="linkedpage4.html#s.africa">South Africa</a>
+          <a href="linkedpage4.html#ghana">Ghana</a>
+          <a href="linkedpage4.html#tunisia">Tunisia</a>
+        </div>
+      </li>        
+      <li class="dropdown">
+      <a href="linkedpage5.html" class="dropbtn">Asia</a>
+        <div class="dropdown-content">
+          <a href="linkedpage5.html#russia">Russia</a>
+          <a href="linkedpage5.html#saudiarabia">Saudi Arabia</a>
+          <a href="linkedpage5.html#japan">Japan</a>
+          <a href="linkedpage5.html#southkorea">South Korea</a>
+          <a href="linkedpage5.html#australia">Australia</a>
+        </div>    
+      </li>
+      <li><a href="https://www.fifa.com">FIFA</a></li>
+    </ul>    
+ <body>
 	<p>......</p>
 	<h2>Asia</h2>
 	<a href="https://en.rfs.ru/">
     <img class="logo"src="images/russia-2015.jpg"></a>
-	<h3>Russia</h3>
+	<h3 id="russia">Russia</h3>
 	<img src="images/russia-2014.jpg">
 	<p>Russia as big as a nation as they are have failed to make an appearance in the FIFA world cup and have been presented a chance as the world cup will be hosted in Russia and they achieve automatic qualification. The question is will they be the first country to host the event and not reach the round of 16. They are yet to win an international trophy.</p>
-	<h3>Saudi Arabia</h3>
+	<h3 id="saudiarabia">Saudi Arabia</h3>
 	<a href="https://http://www.the-afc.com/member-association/saudi-arabian-football-federation/">
     <img class="logo"src="images/s.arabia1.jpg"></a>
 	<img src="images/s.arabia.jpg">
 	<p>Saudi arabia have managed to qualify for four world-cups since they joined FIFA before the 1994 world cup which they did qualify for and reach the round of 16 which was the best performance they've had in their history. They qualified for the 3 world cups that followed 1994 but faied to pass the group stage on those occasions.</p>
 	<a href="https://www.jfa.jp/eng/">
     <img class="logo"src="images/japan-2015.jpg"></a>
-	<h3>Japan</h3>
+	<h3 id="japan">Japan</h3>
 	<img src="images/japan-2014.jpg">
 	<p>Japan in their rich history have qualified for the world-cup on five occasions. Their first appearnace was in 1998 and they hosted the event in 2002 with north Korea and have been in the round of sixteen twice and were present in the last world cup. They have won the asian cup four times and have proved themselves in their continent.</p>
 	<a href="https://www.kfa.or.kr/eng/">
     <img class="logo"src="images/s.korea-2015.jpg"></a>
-	<h3>South Korea</h3>
+	<h3 id="southkorea">South Korea</h3>
 	<img src="images/s.korea-2014.jpg">
 	<p>South Korea have been in 9 world cups which is the most by an asian team and the year they co-hosted with japan 2002 they came fourth. They are consistent as they have been in the last 8 world-cups. They are the country to suffer the worst defeat in the world cup 9 - 0 to hungary in 1954.</p>
 	<a href="https://www.footballaustralia.com.au/">
     <img class="logo"src="images/australia-2015.jpg"></a>
-	<h3>Australia</h3>
+	<h3 id="australia">Australia</h3>
 	<img src="images/australia-2014.jpg">
 	<p>Australia is a nation have been playing football for a while but a lot of people think they just started because back in the 20th century, they only qualified once and got knocked out in the first round. Their best finish was in 2006 where they reached the round of 16 and they have qualified for the last three world cup which could stand as consistency.</p>
 	<footer>

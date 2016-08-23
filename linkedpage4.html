@@ -60,12 +60,12 @@ img{
     height: 250px;
     border: 7.5pt groove #e6ffff;
 }
-div{
+/*div{
     padding:20px;
     margin-top:30px;
     background-color:white;
     height:1500px;
-}
+}*/
 a img{
 	width: 30px;
 	height: 30px;
@@ -83,56 +83,138 @@ a img{
 h2{
 	font-family: verdana;
     color: #e6ffff;
+}li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00663d;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: ;
+    background-color: #00e6b8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 </style>
 </head>
 	<ul>
-		<li></li>
-		<li><a class="active" href="index.html">Home</a></li>
-		<li><a href="linkedpage1.html">North America</a></li>
-  		<li><a href="linkedpage2.html">Europe</a></li>
-  		<li><a href="linkedpage3.html">South America</a></li>
-  		<li><a href="linkedpage4.html">Africa</a></li>
-  		<li><a href="linkedpage5.html">Asia</a></li>
-  		<li><a href="https://www.fifa.com">FIFA</a></li>
-	</ul>	
+      <li><a class="active" href="index.html">Home</a></li>
+      <li class="dropdown">
+      <a href="linkedpage1.html" class="dropbtn">North America</a>
+        <div class="dropdown-content">
+          <a href="linkedpage1.html#USA">USA</a>
+          <a href="linkedpage1.html#Canada">Canada</a>
+          <a href="linkedpage1.html#Mexico">Mexico</a>
+        </div>
+      </li>  
+      <li class="dropdown">
+      <a href="linkedpage2.html" class="dropbtn">Europe</a>
+        <div class="dropdown-content">
+          <a href="linkedpage2.html#bulgaria">Bulgaria</a>
+          <a href="linkedpage2.html#ireland">Ireland</a>
+          <a href="linkedpage2.html#poland">Poland</a>
+          <a href="linkedpage2.html#croatia">Croatia</a>
+          <a href="linkedpage2.html#england">England</a>
+          <a href="linkedpage2.html#france">France</a>
+          <a href="linkedpage2.html#holland">Holland</a>
+          <a href="linkedpage2.html#portugal">Portugal</a>
+          <a href="linkedpage2.html#spain">Spain</a>
+          <a href="linkedpage2.html#italy">Italy</a>
+          <a href="linkedpage2.html#germany">Germany</a>
+        </div>
+      </li>
+      <li class="dropdown">  
+      <a href="linkedpage3.html" class="dropbtn">South America</a>
+        <div class="dropdown-content">
+          <a href="linkedpage3.html#brazil">  Brazil</a>
+          <a href="linkedpage3.html#argentina">Argentina</a>
+          <a href="linkedpage3.html#chile">Chile</a>
+          <a href="linkedpage3.html#colombia">Colombia</a>
+          <a href="linkedpage3.html#uruguay">Uruguay</a>
+          <a href="linkedpage3.html#paraguay">Paraguay</a>
+        </div>
+      </li>
+      <li class="dropdown">
+      <a href="linkedpage4.html" class="dropbtn">Africa</a>
+        <div class="dropdown-content">
+          <a href="linkedpage4.html#algeria">Algeria</a>
+          <a href="linkedpage4.html#cameroon">Cameroon</a>
+          <a href="linkedpage4.html#egypt">Egypt</a>
+          <a href="linkedpage4.html#nigeria">Nigeria</a>
+          <a href="linkedpage4.html#s.africa">South Africa</a>
+          <a href="linkedpage4.html#ghana">Ghana</a>
+          <a href="linkedpage4.html#tunisia">Tunisia</a>
+        </div>
+      </li>        
+      <li class="dropdown">
+      <a href="linkedpage5.html" class="dropbtn">Asia</a>
+        <div class="dropdown-content">
+          <a href="linkedpage5.html#russia">Russia</a>
+          <a href="linkedpage5.html#saudiarabia">Saudi Arabia</a>
+          <a href="linkedpage5.html#japan">Japan</a>
+          <a href="linkedpage5.html#southkorea">South Korea</a>
+          <a href="linkedpage5.html#australia">Australia</a>
+        </div>    
+      </li>
+      <li><a href="https://www.fifa.com">FIFA</a></li>
+    </ul> 	
 </head>
 <body>
 	<p>.......</p>
 	<h2>Africa</h2>
 	<a href="https://www.faf.dz/">
     <img class="logo"src="images/algeria-2015.jpg"></a>
-	<h3>Algeria</h3>
+	<h3 id="algeria">Algeria</h3>
 	<img src="images/algeria-2014.jpg">
 	<p>Algeria is a country that was part of france till 1965 or so and didnt make a world cup qualification till 1982 and 19986 which they were knocked out in both at the group stage. They didnt qualify till 2010 and 2014 and in 2014 they managed to reach the quarter finals, their best performance in history.</p>
 	<a href="https://fecafoot-officiel.com/">
     <img class="logo"src="images/cameroon-2015.jpg"></a>
-	<h3>Cameroon</h3>
+	<h3 id="cameroon">Cameroon</h3>
 	<img src="images/cameroon-2014.jpg">
-	<p>Cameroun have qualified for seven world cups. They withdrew from the 1966 world cup and their highest position came in 1990, their second world cup. They qualified for four consecutive world cups. They have won the most African Cup of Nations. Their best performance in history.</p>
+	<p>Cameroon have qualified for seven world cups. They withdrew from the 1966 world cup and their highest position came in 1990, their second world cup. They qualified for four consecutive world cups. They have won the most African Cup of Nations. Their best performance in history.</p>
 	<a href="https://int.soccerway.com/teams/egypt/egypt/658/">
     <img class="logo"src="images/egypt-2015.jpg"></a>
-	<h3>Egypt</h3>
+	<h3 id="egypt">Egypt</h3>
 	<img src="images/egypt-2014.jpg">
 	<p>Egypt have qalified for two world cups in their history 1934 and 1990 and have never passed the group stage, for a team that has been playing football since 1934 they have failed to prove theirselves.</p>
 	<a href="https://www.thenff.com/">
     <img class="logo"src="images/nigeria-2015.jpg"></a>
-	<h3>Nigeria</h3>
+	<h3 id="nigeria">Nigeria</h3>
 	<img src="images/nigeria-2014.jpg">
 	<p>Nigeria got their indipendence in 1960 and have qualified for five world-cups out of thirteen and they have only gotten as high as the round of 16, a feat they have achieved three times including the most recent world cup.</p>
 	<a href="https://www.safa.net/">
     <img class="logo"src="images/southafrica-2015.jpg"></a>
-	<h3>S.Africa</h3>
+	<h3 id="s.africa">S.Africa</h3>
 	<img src="images/southafrica-2014.jpg">
 	<p>South Africa have qualified for three world-cups and are the only african nation to host the event which was in 2010. They didn't enter till 1966 and they weren't admitted in 1966 and were banned from 1970 to 1990 and failed to qualify in 1994 and 2006 ad 2014.</p>
-	<h3>Ghana</h3>
+	<h3 id="ghana">Ghana</h3>
 	<a href="https://www.ghanafa.org/">
     <img class="logo"src="images/ghana-2015.jpg"></a>
 	<img src="images/ghana-2014.jpg">
 	<p>Ghana have qualified in 3 world cups and have reached the quarter finals once and that was in 2010 in south africa. They have been present in the last three world cups and are the best team in africa and as well as cameroon have reached the highest point of an african team.</p>
 	<a href="https://en.wikipedia.org/wiki/Tunisia_national_football_team/">
     <img class="logo"src="images/tunisia-2015.jpg"></a>
-	<h3>Tunisia</h3>
+	<h3 id="tunisia">Tunisia</h3>
 	<img src="images/tunisia-2014.jpg">
 	<p>Tunisia have qualified for 4 world cups but have failed to make it past the group stage and havent made it in the last two world-cups. They are seen mostly as an average team with a few talented players. They have 2018 to prove themselves in world football.</p>
 	<footer>

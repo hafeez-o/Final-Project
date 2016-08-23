@@ -61,12 +61,12 @@ img{
     height: 250px;
     border: 7.5pt groove #e6ffff;
 }
-div{
+/*div{
     padding:20px;
     margin-top:30px;
     background-color:white;
     height:1500px;
-}
+}*/
 a img{
 	width: 30px;
 	height: 30px;
@@ -85,18 +85,101 @@ h2{
 	font-family: verdana;
     color: #e6ffff;
 }
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00663d;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: ;
+    background-color: #00e6b8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 </style>
 </head>
 	<ul>
-		<li></li>
-		<li><a class="active" href="index.html">Home</a></li>
-		<li><a href="linkedpage1.html">North America</a></li>
-  		<li><a href="linkedpage2.html">Europe</a></li>
-  		<li><a href="linkedpage3.html">South America</a></li>
-  		<li><a href="linkedpage4.html">Africa</a></li>
-  		<li><a href="linkedpage5.html">Asia</a></li>
-  		<li><a href="https://www.fifa.com">FIFA</a></li>
-	</ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li class="dropdown">
+      <a href="linkedpage1.html" class="dropbtn">North America</a>
+        <div class="dropdown-content">
+          <a href="linkedpage1.html#USA">USA</a>
+          <a href="linkedpage1.html#Canada">Canada</a>
+          <a href="linkedpage1.html#Mexico">Mexico</a>
+        </div>
+      </li>  
+      <li class="dropdown">
+      <a href="linkedpage2.html" class="dropbtn">Europe</a>
+        <div class="dropdown-content">
+          <a href="linkedpage2.html#bulgaria">Bulgaria</a>
+          <a href="linkedpage2.html#ireland">Ireland</a>
+          <a href="linkedpage2.html#poland">Poland</a>
+          <a href="linkedpage2.html#croatia">Croatia</a>
+          <a href="linkedpage2.html#england">England</a>
+          <a href="linkedpage2.html#france">France</a>
+          <a href="linkedpage2.html#holland">Holland</a>
+          <a href="linkedpage2.html#portugal">Portugal</a>
+          <a href="linkedpage2.html#spain">Spain</a>
+          <a href="linkedpage2.html#italy">Italy</a>
+          <a href="linkedpage2.html#germany">Germany</a>
+        </div>
+      </li>
+      <li class="dropdown">  
+      <a href="linkedpage3.html" class="dropbtn">South America</a>
+        <div class="dropdown-content">
+          <a href="linkedpage3.html#brazil">  Brazil</a>
+          <a href="linkedpage3.html#argentina">Argentina</a>
+          <a href="linkedpage3.html#chile">Chile</a>
+          <a href="linkedpage3.html#colombia">Colombia</a>
+          <a href="linkedpage3.html#uruguay">Uruguay</a>
+          <a href="linkedpage3.html#paraguay">Paraguay</a>
+        </div>
+      </li>
+      <li class="dropdown">
+      <a href="linkedpage4.html" class="dropbtn">Africa</a>
+        <div class="dropdown-content">
+          <a href="linkedpage4.html#algeria">Algeria</a>
+          <a href="linkedpage4.html#cameroon">Cameroon</a>
+          <a href="linkedpage4.html#egypt">Egypt</a>
+          <a href="linkedpage4.html#nigeria">Nigeria</a>
+          <a href="linkedpage4.html#s.africa">South Africa</a>
+          <a href="linkedpage4.html#ghana">Ghana</a>
+          <a href="linkedpage4.html#tunisia">Tunisia</a>
+        </div>
+      </li>        
+      <li class="dropdown">
+      <a href="linkedpage5.html" class="dropbtn">Asia</a>
+        <div class="dropdown-content">
+          <a href="linkedpage5.html#russia">Russia</a>
+          <a href="linkedpage5.html#saudiarabia">Saudi Arabia</a>
+          <a href="linkedpage5.html#japan">Japan</a>
+          <a href="linkedpage5.html#southkorea">South Korea</a>
+          <a href="linkedpage5.html#australia">Australia</a>
+        </div>    
+      </li>
+      <li><a href="https://www.fifa.com">FIFA</a></li>
+    </ul> 
 <body>
 	<p>..............</p>
 	<h2>South America</h2>
