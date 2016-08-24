@@ -7,7 +7,7 @@ ul {
     position: fixed;
     top: 0;
     width: 73.40%;
-    border: 2pt solid #e6ffff;    
+    border: 2pt solid #00663d;;    
     border-radius: 07.5px;
     border-spacing: 10px 50px;
 }
@@ -18,7 +18,7 @@ li {
 
 li a {
     display: block;
-    color: #00cccc;    
+    color: #00663d;    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +33,8 @@ li a:hover:not(.active) {
 .active {
     background-color: #e6ffff;    
     font-family: verdana;
-    color: #00cccc;    }
+    color: #00663d;    
+}
 body{
     background-color: #00e6b8;
     margin-left: 175px;
@@ -42,7 +43,7 @@ body{
 }    
 p{
     font-family: verdana;
-    color: #e6ffff;}
+    color: #00663d;;}
 h3{
     font-family: verdana;
     font-size: 30px;
@@ -70,13 +71,14 @@ div{
 .socials{
     width: 30px;
     height: 30px;
+    background-color: #00663d;
 }
 h1{
     font-family: verdana;
-    color: #e6ffff;}
+    color: #00663d;;}
 h2{
     font-family: verdana;
-    color:  #e6ffff;}
+    color:  #00663d;}
 #uru{
     width: 300px;
     height: 300px;
@@ -92,19 +94,19 @@ li a:hover:not(.log) {
 .log {
     background-color: #e6ffff;    
     font-family: verdana;
-    color: #00cccc;    
+    color: #00663d;    
     border: 1pt solid #00e6b8;
     float: right;
     border-spacing: 
 }
 table{
     border: 2pt groove #e6ffff;    
-    color: #e6ffff;    
+    color: #00663d;;    
     font-family: verdana;
 }
 td a{
     text-decoration: none;
-    color: #e6ffff;}
+    color: #00663d;}
 .greats{
     width: 990px;
     height: 475px;
@@ -175,9 +177,9 @@ td a{
   width: 15px;
   height: 15px;
   margin: -75px 0 0 -75px;
-  border: 10px solid #f3f3f3;
+  border: 10px solid #00663d;
   border-radius: 50%;
-  border-top: 10px solid #3498db;
+  border-top: 10px solid #00e6b8;
   width: 15px;
   height: 15px;
   -webkit-animation: spin 2s linear infinite;
