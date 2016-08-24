@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00e6b8;
+    background-color: #b3ffb3;
     position: fixed;
     top: 0;
     width: 73.40%;
@@ -36,7 +36,7 @@ li a:hover:not(.active) {
     color: #00663d;    
 }
 body{
-    background-color: #00e6b8;
+    background-color: #b3ffb3;
     margin-left: 175px;
     margin-right: 175px;
     text-align: justify;
@@ -95,7 +95,7 @@ li a:hover:not(.log) {
     background-color: #e6ffff;    
     font-family: verdana;
     color: #00663d;    
-    border: 1pt solid #00e6b8;
+    border: 1pt solid #b3ffb3;
     float: right;
     border-spacing: 
 }
@@ -117,7 +117,7 @@ td a{
     width: 100px;
     border-radius: 10px;
     font-family: verdana;
-    background-color: #00e6b8;
+    background-color: #b3ffb3;
     color: white;
     float: center;
 }*/
@@ -128,7 +128,7 @@ td a{
   cursor: pointer;
   outline: none;
   color: white;
-  background-color: #00e6b8;
+  background-color: #b3ffb3;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -138,7 +138,7 @@ td a{
 .button:hover {background-color: #66ffc2;}
 
 .button:active {
-  background-color: #00e6b8;
+  background-color: #b3ffb3;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -146,7 +146,7 @@ td a{
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    background-color: #00e6b8;
+    background-color: #b3ffb3;
     margin-top:20px;
     height: 50%;
 }*/
@@ -179,7 +179,7 @@ td a{
   margin: -75px 0 0 -75px;
   border: 10px solid #00663d;
   border-radius: 50%;
-  border-top: 10px solid #00e6b8;
+  border-top: 10px solid #b3ffb3;
   width: 15px;
   height: 15px;
   -webkit-animation: spin 2s linear infinite;
@@ -219,5 +219,5 @@ td a{
   display: none;
   text-align: center;
   length: 100%;
-  background-color: #00e6b8;
+  background-color: #b3ffb3;
 }
