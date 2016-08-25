@@ -47,11 +47,10 @@ p{
     color: #00663d;
 }
 .thatlist  {
-    color: #00663d;
-    list-style-type: none; 
+    color: #00663d; 
     font-family: verdana;
     margin: none;
-    text-align: center;  
+    text-align: left;  
 }
 h3{
     font-family: verdana;
@@ -119,7 +118,7 @@ td a{
     text-decoration: none;
     color: #00663d;}
 .greats{
-    width: 1010px;
+    width: 1850px;
     margin: 0 auto;
     height: 475px;
     border: 2pt solid #cfffff;
@@ -229,8 +228,9 @@ td a{
 
 #myDiv {
   display: none;
-  text-align: center;
+  text-align: left;
   length: 100%;
   background-color: #b3ffb3;
   margin: 45px 150px 150px 75px;
+  font-size: 22px;
 }

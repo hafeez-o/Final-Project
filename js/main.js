@@ -1,5 +1,5 @@
 function myFunction() {
-    myVar = setTimeout(showPage, 4321);
+    myVar = setTimeout(showPage, 2500);
 }
 
 function showPage() {
