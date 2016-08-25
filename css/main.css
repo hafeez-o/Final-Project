@@ -1,4 +1,4 @@
-ul {
+#yule {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,9 +10,10 @@ ul {
     border: 2pt solid #00663d;;    
     border-radius: 07.5px;
     border-spacing: 10px 50px;
+    width: 80%;
 }
 
-li {
+.yules {
     float: left;
 }
 
@@ -43,7 +44,15 @@ body{
 }    
 p{
     font-family: verdana;
-    color: #00663d;;}
+    color: #00663d;
+}
+.thatlist  {
+    color: #00663d;
+    list-style-type: none; 
+    font-family: verdana;
+    margin: none;
+    text-align: center;  
+}
 h3{
     font-family: verdana;
     font-size: 30px;
@@ -55,7 +64,7 @@ img{
 div{
     padding:20px;
     margin-top:30px;
-    background-color:#00cccc;    
+    background-color:#e6ffff;    
     height:1500px;
 }
 .textwrap{
@@ -103,14 +112,17 @@ table{
     border: 2pt groove #e6ffff;    
     color: #00663d;;    
     font-family: verdana;
+    background-color: #b3ffb3;
+    width: 1000px; 
 }
 td a{
     text-decoration: none;
     color: #00663d;}
 .greats{
-    width: 990px;
+    width: 1010px;
+    margin: 0 auto;
     height: 475px;
-    border: 2pt solid #e6ffff;
+    border: 2pt solid #cfffff;
     border-radius: 10px;
 }
 /*button{
@@ -120,7 +132,7 @@ td a{
     background-color: #b3ffb3;
     color: white;
     float: center;
-}*/
+}
 .button {
   padding: 15px 25px;
   font-size: 16px;
@@ -220,4 +232,5 @@ td a{
   text-align: center;
   length: 100%;
   background-color: #b3ffb3;
+  margin: 45px 150px 150px 75px;
 }

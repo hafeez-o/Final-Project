@@ -1,13 +1,5 @@
-/*function myFunction() {
-    var x = document.getElementsByClassName('myDIV');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-} */
 function myFunction() {
-    myVar = setTimeout(showPage, 2500);
+    myVar = setTimeout(showPage, 4321);
 }
 
 function showPage() {
